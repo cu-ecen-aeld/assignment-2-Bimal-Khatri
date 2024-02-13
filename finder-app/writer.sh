@@ -1,12 +1,5 @@
 #!/bin/bash
 
-	if [ $# -ne 2 ]; then
-		echo "Both of the arguments not assigned"
-		exit 1
-	writefile=$1
-	writestr=$2
-#!/bin/bash
-
 # Check if the writefile and writestr arguments are specified
 if [ $# -ne 2 ]; then
     echo "Error: Two arguments are required."
